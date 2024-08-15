@@ -1,4 +1,0 @@
-TOKEN = '7181880158:AAHRn1kyWhNr_E75vV7evBg-IDHJx4j0fQg'
-APP_YANDEX_PASSWORD = 'qivvyieszqqgilpv'
-tel_number = +7903480597
-access_token =  'vk1.a.MGn8cZe5Do2qSypt9V-RKgMorMqnL0qrVQYDkgPOHVXhW6z3YfpB5dJh5oolnC7OliMk1oQGm5RA6HjwgEim1ilncaQdnCPdDk6jGdzyMKFe59NvO-y7hipm6EPVNJ492z7u_PqrrWLlQDxRjeI4UobyX4-VZW0jwM4X1nipoxFVUDUyksMh_uEb72m52kh5Nz7VlVME9E97S9ak6uzhEw'

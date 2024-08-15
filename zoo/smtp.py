@@ -2,9 +2,13 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from aiosmtplib import SMTP
 import asyncio
+import os
+from dotenv import load_dotenv
 
-EMAIL = 'benetal@yandex.ru'
-PWD = 'qivvyieszqqgilpv'
+load_dotenv()
+
+EMAIL = os.getenv('EMAIL')
+PWD = os.getenv('APP_YANDEX_PASSWORD')
 
 async def send_mail(subject, to, msg):
     message = MIMEMultipart()

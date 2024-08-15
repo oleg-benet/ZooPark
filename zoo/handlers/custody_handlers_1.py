@@ -3,9 +3,12 @@ from aiogram.types import Message, CallbackQuery
 from aiogram.fsm.context import FSMContext
 import zoo.keyboards as kb
 from zoo.states import ClientState
-
 import aiohttp
-from zoo.config import access_token
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+access_token = os.getenv('access_token')
 
 router_cust = Router()
 

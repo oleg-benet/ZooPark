@@ -1,7 +1,7 @@
 import asyncio
 
 from aiogram import F, Router
-from aiogram.types import Message, CallbackQuery, MessageEntity
+from aiogram.types import Message, CallbackQuery
 from aiogram.fsm.context import FSMContext
 from zoo.questions import asks
 import zoo.keyboards as kb

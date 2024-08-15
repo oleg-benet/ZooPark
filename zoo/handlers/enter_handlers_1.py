@@ -7,7 +7,6 @@ from zoo.states import ClientState
 from aiogram.filters import CommandStart
 from aiogram.types.input_file import FSInputFile
 from zoo.create_bot import bot
-#import sqlite3 as sq
 import aiosqlite as sq
 
 router_enter = Router()
